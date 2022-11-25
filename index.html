@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Mini Portifolio Miguel Fuentes</title>
+</head>
+<body>
+    <!-- HEADER PROFILE-->    
+    <header class="profile container">
+        <!-- THEME BUTTON-->
+        <i class="ri-moon-line change-theme" id="theme-button">Light / Dark</i><br>
+        <i class="ri-global-line change-theme2" id="language-button">pt-BR / Inglish</i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <!--PROFILE IMAGE-->
+                        <img src="assets/img/me.jpg" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Miguel Fuentes</h2>
+                <h3 class="profile__profession">Quality Assurance / Developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/milanmiguelf/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/miguel-milan-fuentes-neto-b1a28b109/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://github.com/Vurtao" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                    <a href="https://www.facebook.com/MiguelMilanFuentes" target="_blank" class="profile__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@vurtao5473" target="_blank" class="profile__social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                    <a href="https://www.twitch.tv/vurtao" target="_blank" class="profile__social-link">
+                        <i class="ri-twitch-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/MiguelMilanFN" target="_blank" class="profile__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="profile__info-group">
+                <h3 class="profile__about">
+                    Sobre
+                </h3>
+                <p class="profile__about-description"> 
+                    Meu nome é Miguel tenho 34 anos, casado e pai de um Filho moro em 
+                    <a href="https://www.google.com/maps/search/?api=1&amp;query=São Bernardo do Campo,SP" target="_blank" rel="noopener noreferrer" class="profile__adress">São Bernardo do Campo, SP</a>. <br>
+                    Ético, flexível, comunicativo, ótimo em equipes e de fácil adaptação para novas ferramentas e desafios, amante da tecnologia sempre em busca de novos conhecimentos, com metas a curto e longo prazo profissionalmente e adaptável ao mercado. <br>
+                    Em meu tempo livre gosto de ficar com minha família, realizar exercícios físicos como futebol e academia. Como hobby quando possível costumo jogar vídeo games fazendo streaming e publicando as jogatinas.
+                </p>          
+            </div>
+            
+
+            <div class="profile__buttons">
+                <!--INSERT CV-->
+                <a download="" href="assets/pdf/Currículo Miguel Fuentes.pdf" target="_blank" class="button">
+                    Download Curriculo  <i class="ri-folder-download-fill"></i>
+                </a>
+
+                <!--BUTTON CONTACT-->
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=5511956552511" target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-fill"></i>
+                    </a>
+                    <a href="mailto:milanmiguel@gmail.com" target="_blank" class="button button__small button__gray">
+                        <i class="ri-mail-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--MAIN-->
+    <main class="main">
+        <section class="filters container">
+            <!--FILTERS TABS-->
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#projects">
+                    Projetos
+                </button>
+
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+
+                <button class="filters__button" data-target="#business">
+                    Experiências Profissionais
+                </button>
+
+                <button class="filters__button" data-target="#certifications">
+                    Certificações
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+            
+                <!--PROJECTS-->
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="assets/img/projeto_bankline.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">
+                                    APP + API
+                                </span>
+                                <h3 class="projects__title">
+                                    Bankline APP - BootCamp First Santander 
+                                </h3>
+                                <a href="https://github.com/Vurtao/BankLine-APP-Complete" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/projeto curriculum 01.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">
+                                    Web
+                                </span>
+                                <h3 class="projects__title">
+                                    Primeiro Projeto Curriculum/Portifolio
+                                </h3>
+                                <a href="https://curriculo-miguel-fuentes.web.app/" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/projeto portifolio.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">
+                                    Web
+                                </span>
+                                <h3 class="projects__title">
+                                    Portifolio Atual
+                                </h3>
+                                <a href="#" target="_blank" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!--SKILLS-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Dev Skills
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skilss__group">
+                                <div class="skills__data">
+                                    <iconify-icon icon="akar-icons:html-fill"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="akar-icons:css-fill"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="akar-icons:typescript-fill"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">TypeScript</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:angular"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Angular</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="bxl:java"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="skilss__group">
+                                <div class="skills__data">
+                                    <iconify-icon icon="tabler:brand-javascript"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="tabler:c-sharp"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="mdi:language-kotlin"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Kotlin</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="akar-icons:bootstrap-fill"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Skills de Qualidade de Testes
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skilss__group">
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:postman"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Postman</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:swagger"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Swagger</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="mdi:kubernetes"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Kubernets</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="skilss__group">                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:selenium"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Selenium</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:rabbitmq"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">RabbitMQ</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="tabler:robot"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Robot Framework</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">
+                            Ferramentas e Bancos
+                        </h3>
+
+                        <div class="skills__box">
+                            <div class="skilss__group">
+                                <div class="skills__data">
+                                    <iconify-icon icon="game-icons:beaver"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Dbeaver</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:mysql"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+
+                                <div class="skills__data">
+                                    <iconify-icon icon="mdi:jira"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Jira</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:clickup"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">ClickUp</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="mdi:vs-code"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Vs Code</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                                                                                                            
+                                <div class="skills__data">
+                                    <iconify-icon icon="fluent-mdl2:git-hub-logo"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Git Hub</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+
+                            <div class="skilss__group">                                                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="bxl:postgresql"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">PostgreSQL</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>                                    
+                                </div>
+                                                                                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="material-symbols:cloud"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Cloud</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                                                                                                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="mdi:android-studio"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Android Studio</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                                                                                                                                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:eclipseide"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Eclipse</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                                                                                                                                                                                                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="uim:linux"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Linux</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <iconify-icon icon="simple-icons:microsoftazure"></iconify-icon>
+
+                                    <div>
+                                        <h3 class="skills__name">Azzure</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EXPERIENCIE-->
+                <div class="business__content grid" data-content id="business">
+                    <div class="business__area">
+                        <h3 class="business__title">
+                            Experiências Profissionais
+                        </h3>
+
+                        <div class="business__box">
+                            <div class="business__group">
+                                <div class="business__data">
+                                    <div>
+                                        <h3 class="business__name">QARTI 07/2021 - Atual</h3>
+                                        <span class="business__level">| Quality Assurance / Developer |</span>
+                                        <p class="profile__about-busniess">
+                                            Atuando como terceiro em varias empresas como hospitais, bancos cryptomoedas, seguros, onde atuo como Qualidade de Testes Front & Back(API), manuais e com automação tratando a qualidade dos sistemas e softwares.
+                                            Utilizando BDD / TDD / Pipelines utilizando Linguagens, Frameworks e Ferramentas como C# | Java | Angular | JavaScript | Postman | Selenium | Swagger | Bancos de Dados (PostgreSQL, MySQLS, DBeaver) |
+                                            Jira | Azzure | ClickUp | Kubernetes | GitHub | RabbitMQ |.<br>
+                                            Atuo também em projetos locais da propria QARTI como Desenvolvedor na melhoria e atualização do software, subindo versões front back e mobile usando Lingaugens, Frameworks e Ferramentas como
+                                            TypeScript | Java | JavaScript | Angular | IONIC | Jira | Banco de Dados (PostgreSQL) | GitHub | HTML | CSS |.
+                                        </p>
+                                    </div>                                    
+                                </div>                            
+                            </div>
+
+                            <div class="business__group">
+                                <div class="business__data">
+                                    <div>
+                                        <h3 class="business__name">AUT SISTEMAS 09/2017 - 06/2021</h3>
+                                        <span class="business__level">| Analista de Infra Estrutura |</span>
+                                        <p class="profile__about-busniess">
+                                            Responsável pela manutenção, formatação, instalações de softwares locais e ações preventivas dos
+                                            equipamentos (Notebooks, Desktops, Impressoras e equipamentos de Vídeo, Celulares, Tabletes)
+                                            Field Service, manutenção e configuração Software STAR SOFT, onde tem o controle financeiro, de projetos
+                                            e demais áreas da empresa (Software no qual gerencia todas áreas da empresa). Criação de projetos, estruturas,
+                                            adicionar e remover novos funcionários.
+                                        </p>
+                                    </div>                                    
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CERTIFICATIONS-->
+                <div class="certifications__content grid" data-content id="certifications">
+                    <div class="certifications__area">
+                        <h3 class="certifications__title">
+                            Certificados
+                        </h3>
+
+                        <div class="certifications__box">
+                            <div class="certifications__group">
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Programação para Leigos do Basico ao Avançado.jpg" class="profile__about-certification" target="_blank">
+                                        Programação para Leigos do Basico ao Avançado
+                                    </a>                                                                        
+                                </div>  
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Conceitos e Melhores Práticas com Bancos de Dados PostgreSQL.pdf" class="profile__about-certification" target="_blank">
+                                        Conceitos e melhores práticas com bancos de dados PostgreSQL
+                                    </a>                                                                        
+                                </div>
+
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução a Programação.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução à Programação
+                                    </a>                                                                        
+                                </div>  
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução Java Script.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução ao JavaScript,
+                                    </a>                                                                        
+                                </div> 
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Dominando IDEs Java.pdf" class="profile__about-certification" target="_blank">
+                                        Dominando IDEs Java
+                                    </a>                                                                        
+                                </div>  
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução à Programação e Pensamento Computacional.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução à Programação e Pensamento Computacional
+                                    </a>                                                                        
+                                </div>
+                                                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução ao Git e ao GitHub.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução ao Git e ao GitHub
+                                    </a>                                                                        
+                                </div>                                 
+
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Lógica de Programação Essencial.pdf" class="profile__about-certification" target="_blank">
+                                        Lógica de Programação Essencial
+                                    </a>                                                                        
+                                </div>  
+                            </div>
+
+                            <div class="certifications__group">
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/STEAM - Pesquisa Operacional e Inteligência Artificial na Tomada de Decisão.pdf" class="profile__about-certification" target="_blank">
+                                        STEAM - Pesquisa Operacional e IA na Tomada de Decisão
+                                    </a>                                                                        
+                                </div>
+
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/STEAM - O que é Inteligência Artificial - Aplicações Para o Mundo da Indústria 4.46.pdf" class="profile__about-certification" target="_blank">
+                                        STEAM - IA- Aplicações para o Mundo da Indústria 4.46
+                                    </a>                                                                        
+                                </div>  
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Oracle - Desvendando o Deep Learning.pdf" class="profile__about-certification" target="_blank">
+                                        Oracle - Desvendando o Deep Learning
+                                    </a>                                                                        
+                                </div> 
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Aprenda o que são Estrutura de Dados e Algoritmos.pdf" class="profile__about-certification" target="_blank">
+                                        O que são Estrutura de Dados e Algoritmos
+                                    </a>                                                                        
+                                </div>  
+                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/IBM - Casos Inovadores de Inteligência Artificial.pdf" class="profile__about-certification" target="_blank">
+                                        IBM - Casos Inovadores de Inteligência Artificial
+                                    </a>                                                                        
+                                </div>
+                                                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução ao Desenvolvimento Moderno de Software.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução ao Desenvolvimento Moderno de Software
+                                    </a>                                                                        
+                                </div> 
+                                                                
+                                <div class="certifications__data">                                    
+                                    <i class="ri-trophy-fill"></i>
+                                    <a href="assets/pdf/Certificados/Introdução ao Ecossistema e Documentação Java.pdf" class="profile__about-certification" target="_blank">
+                                        Introdução ao Ecossistema e Documentação Java
+                                    </a>                                                                        
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Miguel Fuentes
+        </span>
+    </footer>
+
+    <!--SCROLLREVEAL-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--MAIN JS-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+</body>
+</html>
